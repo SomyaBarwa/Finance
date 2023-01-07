@@ -244,4 +244,4 @@ def sell():
         return render_template("sell.html", stocks=stocks)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0:$PORT')
+    app.run()
